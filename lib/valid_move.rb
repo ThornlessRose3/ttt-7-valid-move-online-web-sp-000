@@ -10,7 +10,7 @@ end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken?(b, i)
   if b[i] == " " || b[i] == "" || b[i] == nil
-    return FALSE
+    return nil
   else
     return TRUE
   end
