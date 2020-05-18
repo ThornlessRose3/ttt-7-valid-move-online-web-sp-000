@@ -1,8 +1,8 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
   if between?(0,8)
-    message = position_taken?(board, index)
-    puts meessage
+    return position_taken?(board, index)
+  else  
     return FALSE
   end
 end
