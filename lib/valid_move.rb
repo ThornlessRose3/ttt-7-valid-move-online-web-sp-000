@@ -1,8 +1,7 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
   if index < 9 
-    message = position_taken(b,i)
-    puts message
+    
   else
     return FALSE
   end
